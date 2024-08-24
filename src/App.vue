@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BotCount />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BotCount from "./components/BotCount";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    BotCount,
+  },
+};
 </script>
 
 <style>
