@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <div>Bot counter {{ counter }}</div>
     <div>Bot Count {{ counts }}</div>
   </div>
 </template>
